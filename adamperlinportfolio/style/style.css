@@ -1,0 +1,343 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.class {
+	clear: both;
+}
+
+.flex {
+	display: flex;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+span {
+	color: #BA9257;
+}
+
+/*-------------------------------------------------------*/
+
+header {
+	background-color: #031E0E;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+h1 {
+	color: #ffffff;
+	padding: 15px;
+	float: left;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+nav {
+	float: right;
+	display: flex;
+}
+
+p {
+	font-size: 20px;
+}
+
+#burger {
+	display: none;
+	width: 40px;
+	float: right;
+	margin: 15px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 15px 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+header nav a:hover {
+	color: #BA9257;
+	transition: 0.3s;
+}
+
+#aboutme {
+	background-image: url(../img/dublin2.jpg);
+	background-repeat: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 113px 0 100px 0;
+}
+
+#aboutme div {
+	width: 60%;
+	color: #ffffff;
+	padding: 10px 50px;
+	box-sizing: border-box;
+}
+
+#aboutme div h2 {
+	padding-bottom: 15px;
+	text-transform: uppercase;
+}
+
+#aboutme div h3 {
+	font-size: 80px;
+	padding-bottom: 10px;
+}
+
+#aboutme div a {
+	color: white;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #BA9257;
+	display: block;
+	width: 150px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#aboutme div a:hover {
+	background-color: #ffffff;
+	color: #BA9257;
+	transition: 0.3s;
+}
+
+#skills {
+	background-color: #ffffff;
+	padding: 50px 0 100px 0;
+	color: #031E0E;
+}
+
+#skills h2 {
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 40px;
+}
+
+
+#skills .flex div {
+	margin: 15px;
+	width: 90%;
+	text-align: center;
+	color: #ffffff;
+	padding: 35px 50px;
+	background-color: #031E0E;
+	box-shadow:  5px 5px 15px #031E0E,
+             -5px -5px 15px #ffffff;
+    border-radius: 52px;
+    box-sizing: border-box;
+}
+
+#skills .flex div h3 {
+	padding-bottom: 35px;
+	color: #BA9257;
+	font-size: 30px;
+}
+
+
+#portfolio {
+	background-image: url(../img/code.jpg);
+	background-repeat: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0 100px 0;
+	color: #ffffff;
+}
+
+#portfolio h2 {
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 40px;
+}
+
+#portfolio .flex div {
+	width: 100%;
+	color: #ffffff;
+	padding: 10px 50px;
+	box-sizing: border-box;
+}
+
+#portfolio h3 {
+	font-size: 30px;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+
+#portfolio .flex div a img {
+	margin: auto;
+	display: block;
+	border-radius: 100px;
+	width: 200px;
+}
+
+#contact {
+	background-color: #ffffff;
+	padding: 50px 0 100px 0;
+	color: #031E0E;
+}
+
+#contact h2 {
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 40px;
+}
+
+form {
+	width: 75%;
+	margin: auto;
+}
+
+label {
+	margin-bottom: 24px;
+	color: #031E0E;
+	display: block;
+}
+
+#nom, #tel, #mailf, textarea {
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px dashed #031E0E;
+	margin-bottom: 26px;
+}
+
+textarea {
+	height: 100px;
+	resize: none;
+}
+
+input[type=submit] {
+	width: 125px;
+	height: 63px;
+	background-color: #031E0E;
+	color: #ffffff;
+	margin: auto;
+	display: block;
+	border: 1px solid #031E0E;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #ffffff;
+	color: #031E0E;
+	transition: 0.3s;
+}
+
+footer {
+	background-color: #031E0E;
+	color: #ffffff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+#mail {
+	text-decoration: none;
+	background-color: #ffffff;
+	padding: 10px;
+	color: #031E0E;
+	width: 125px;
+	border: 1px solid #031E0E;
+	height: 63px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+#mail:hover {
+	background-color: #031E0E;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	transition: 0.3s;
+}
+
+footer #wilde {
+	margin-top: 30px;
+	font-family: 'Mr Dafoe', cursive;
+}
+
+footer div a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #BA9257;
+}
+
+footer p {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#sf {
+	width: 220px;
+    padding-top: 70px;
+}
+
+/*-------------------------------------------*/
+@media screen and (max-width: 1160px) {
+	#aboutme {
+		background-color: #031E0E;
+		background-image: none;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	header nav a {
+		display: table-cell;
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	nav {
+		display: none;
+		clear: both;
+	}
+	
+	#burger {
+		display: block;
+
+	}
+
+	#aboutme div h3 {
+	font-size: 80px;
+}
+
+	#aboutme {
+		background-color: #031E0E;
+		background-image: none;
+	}
+
+	#portfolio {
+		background-color: #031E0E;
+		background-image: none;
+	}
+
+	#aboutme div {
+		margin: 0;
+		width: 100%;
+	}
+
+	.flex {
+		display: block;
+	}
+
+	#skills .flex div {
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	#portfolio {
+		text-align: center;
+	}
+
+	#sf {
+	width: 220px;
+	padding-top: 10px;
+}
+}

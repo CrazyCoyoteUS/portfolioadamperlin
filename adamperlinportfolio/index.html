@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Ceci est mon Portfolio">
+		<meta name="author" content="Adam Perlin">
+		<title>Adam Perlin Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Oswald:wght@200&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/b71b4f17f0.js" crossorigin="anonymous"></script>
+	</head>
+
+<body>
+	<header>
+		<h1>Adam <span>Perlin</span></h1>
+		<img src="img/menu.png" alt="menu" id="burger">
+		<nav>
+			<a href="#aboutme">About me</a>
+			<a href="#skills">Skills</a>
+			<a href="#portfolio">Portfolio</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		
+		<div class="clear"></div>
+	</header>
+
+	<section id="aboutme">
+		<div>
+			<h2>Bonjour, je suis <span>Développeur Web & Web Mobile</span></h2>
+			<h3>Adam Perlin</h3>
+			<p>“Référent technique au sein de la CPAM depuis 11 ans, j’ai aujourd’hui donné un nouveau tournant à ma carrière professionnelle et me je me suis reconverti dans le métier de <span>développeur web et web mobile</span>.<br>J’ai fait le choix d’intégrer l’école <span>WebForce3</span> qui me permettra de me former au métier tout en m’intégrant dans la vie et la culture de l’entreprise.”</p>
+			<a href="https://www.linkedin.com/in/adam-first-perlin/" target="_blank"><i class="fa-brands fa-linkedin"></i> Plus d'informations</a>
+		</div>
+	</section>
+
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="flex">
+			<div>
+				<h3><i class="fa-solid fa-code"></i> Front-End</h3>
+				<ul>
+					<li>HTML/CSS</li>
+					<li>UX ET UI DESIGN/RESPONSIVE DESIGN</li>
+					<li>JAVASCRIPT</li>
+					<li>CMS WORDPRESS ET PRESTASHOP</li>
+				</ul>
+			</div>
+			<div>
+				<h3><i class="fa-sharp fa-solid fa-database"></i> Back-End</h3>
+				<ul>
+					<li>PHP  ORIENTÉ OBJET</li>
+					<li>BASE DE DONNÉES / SQL</li>
+					<li>NODE.JS</li>
+				</ul>
+			</div>
+			<div>
+				<h3><i class="fa-solid fa-gear"></i> Autres</h3>
+				<ul>
+					<li>BOOTSTRAP</li>
+					<li>JQUERY</li>
+					<li>ANGULAR</li>
+					<li>SYMFONY</li>
+					<li>SEO</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio">
+		<h2>Portfolio</h2>
+		<div class="flex">
+			<div>
+				<h3>Site Internet</h3>
+				<p>J'ai décidé lors de ma formation chez WebForce3, mettre à jour le site de mon club de Karaté.<br>
+				J'y ai pris beaucoup de plaisir de m'investir au sein de cette association.<br>
+				Je vous laisse le découvrir en cliquant sur le logo de <span>Niji-Kan-Karaté-Do</span></p>
+			</div>
+			<div>
+				<a href="" target="_blank"><img src="img/construction.png" alt="Construction"></a>
+			</div>
+		</div>
+		<div class="flex">
+			<div>
+				<h3>Exercice BootStrap</h3>
+				<p>J'ai effectué lors de ma formation chez WebForce3, une mise en page grâce au Framework BootStrap.<br>
+				Cela m'a permis de comprendre le fonctionnement de celui-ci.<br>
+				Je vous laisse le découvrir en cliquant sur le logo de <span>Street Fighter</span></p>
+			</div>
+			<div>
+				<a href="https://www.tipicathy.fr/streetfighter/" target="_blank"><img src="img/sf.png" alt="Logo Street Fighter" id="sf"></a>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Contactez-moi</h2>
+		<form>
+			<label for="nom">Nom</label>
+			<input type="text" id="nom">
+			<label for="tel">Téléphone</label>
+			<input type="tel" id="tel" minlength="10" maxlength="10" pattern="[0-9]{10}">
+			<label for="mail">Email</label>
+			<input type="email" id="mailf">
+			<label for="message">Message</label>
+			<textarea id="message"></textarea>
+			<input type="submit" value="Envoyer !">
+		</form>
+	</section>
+
+	<footer>
+		<a id="mail" href="mailto:adam.perlin@hotmail.com"><i class="fa-solid fa-paper-plane"></i> Email</a>
+		<p id="wilde">"La sagesse c'est d'avoir des rêves suffisamment grands pour ne pas les perdre de vue lorsqu'on les poursuit."<br>
+		Oscar Wilde</p>
+		<div>
+			<a href="https://www.linkedin.com/in/adam-first-perlin/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+		<p>© Adam Perlin 2022</p>
+	</footer>
+
+
+
+
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>
